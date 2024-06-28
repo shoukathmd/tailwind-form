@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .row-height-1 {
+    height: 17px;
+  }
+  .row-height-2 {
+    height: 150px;
+  }
+  .row-height-3 {
+    height: 200px;
+  }
+}
