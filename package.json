@@ -1,5 +1,19 @@
 {
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npm run build:css"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.0.0"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.4"
-  }
+  },
+  "author": "Your Name",
+  "license": "ISC"
 }
